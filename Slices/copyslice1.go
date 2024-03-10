@@ -36,9 +36,9 @@ func main(){
 	// copy slice 
 	demo:=make([]int,len(number))
 	
-	n:= copy(demo,number)
+	copy(demo,number)
 	fmt.Println(number,demo,n)
-	fmt.Printf("%T",n)// n is total number of element in copied slices
+	fmt.Printf("%T")// n is total number of element in copied slices
 
 
 
