@@ -35,6 +35,7 @@ func main(){
 	duplicate2[789]="Kajal"
 	fmt.Println(strings.Repeat("*",20))
     fmt.Println(duplicate2,duplicate,original)
+	
 
 
 }
