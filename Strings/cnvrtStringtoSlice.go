@@ -55,6 +55,11 @@ func main(){
 	fmt.Println(str1)
 
 
+	str3:="keshav sharma"
+	trimed :=strings.TrimSpace(str3)
+	fmt.Println(trimed)
+
+
 	
 
 }
