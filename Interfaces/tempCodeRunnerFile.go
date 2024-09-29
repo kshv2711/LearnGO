@@ -1,0 +1,1 @@
+fmt.Println("%T\n",s1)

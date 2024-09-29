@@ -3,6 +3,9 @@ package main
 import (
 	"fmt"
 	"math"
+	_ "os"
+	"github.com/mactsouk/go/simpleGitHub"
+
 )
 type shape interface{
 	area() float64
@@ -38,4 +41,6 @@ func (c circle) perimeter() float64{
 	r1:=rectangle{height: 2,width: 3}
 	output(c1)
 	output(r1)
+	fmt.Println(simpleGitHub.AddTwo(5, 6))
+
   }
